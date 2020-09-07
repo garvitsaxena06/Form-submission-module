@@ -1,4 +1,4 @@
-# POC - OnIT-Main
+# POC - Form-submission-module
 
 > Basic form submission module created using JOI, AJAX and Express.js!
 
