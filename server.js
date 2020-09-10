@@ -8,7 +8,7 @@ const app = express()
 const PORT = 4000
 
 
-app.use(bodyParser.urlencoded({extended: false}))
+app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 app.use(express.static('public'))
 app.set('view engine', 'ejs')

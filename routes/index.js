@@ -8,7 +8,7 @@ route.get('/', (req, res) => {
 })
 
 route.post('/post', (req, res) => {
-    console.log(req.body)
+    // console.log(req.body)
     // res.json({success: true})
 
     const schema = Joi.object().keys({
